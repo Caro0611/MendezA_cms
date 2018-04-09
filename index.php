@@ -19,9 +19,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/foundation.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/main.css">
 <title>Welcome to the Finest Selection of Blu-rays on the internets!</title>
 </head>
 <body>
+	<div class=containerr>
 <?php
 	include('includes/nav.html');
 
@@ -39,5 +43,6 @@
 
 	include('includes/footer.html');
 ?>
+</div>
 </body>
 </html>
